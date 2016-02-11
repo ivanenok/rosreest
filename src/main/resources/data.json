@@ -1,0 +1,717 @@
+{
+  "displayFieldName": "PKK_ID",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "REGION_KEY": "Ключ СФ",
+    "PKK_ID": "Идентификатор",
+    "PARENT_ID": "Идентификатор родителя",
+    "CAD_NUM": "Кадастровый номер",
+    "NAME": "Наименование",
+    "ANNO_TEXT": "Аннотация",
+    "ERROR_CODE": "Код ошибки",
+    "KVARTALS_CNT": "Число КК",
+    "PARCELS_CNT": "Число ЗУ",
+    "ACTUAL_DATE": "Дата актуальности",
+    "XC": "X центра",
+    "YC": "Y центра",
+    "XMIN": "Экстент - X мин.",
+    "XMAX": "Экстент - X макс.",
+    "YMIN": "Экстент - Y мин.",
+    "YMAX": "Экстент - Y макс.",
+    "DEL_FEATURE": "Объект обработан - можно удалять",
+    "OKS_CNT": "OKS_CNT",
+    "SHAPE_Length": "Shape_Length",
+    "SHAPE_Area": "Shape_Area"
+  },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "REGION_KEY",
+      "type": "esriFieldTypeString",
+      "alias": "Ключ СФ",
+      "length": 3
+    },
+    {
+      "name": "PKK_ID",
+      "type": "esriFieldTypeString",
+      "alias": "Идентификатор",
+      "length": 4
+    },
+    {
+      "name": "PARENT_ID",
+      "type": "esriFieldTypeString",
+      "alias": "Идентификатор родителя",
+      "length": 2
+    },
+    {
+      "name": "CAD_NUM",
+      "type": "esriFieldTypeString",
+      "alias": "Кадастровый номер",
+      "length": 5
+    },
+    {
+      "name": "NAME",
+      "type": "esriFieldTypeString",
+      "alias": "Наименование",
+      "length": 50
+    },
+    {
+      "name": "ANNO_TEXT",
+      "type": "esriFieldTypeString",
+      "alias": "Аннотация",
+      "length": 5
+    },
+    {
+      "name": "ERROR_CODE",
+      "type": "esriFieldTypeInteger",
+      "alias": "Код ошибки"
+    },
+    {
+      "name": "KVARTALS_CNT",
+      "type": "esriFieldTypeInteger",
+      "alias": "Число КК"
+    },
+    {
+      "name": "PARCELS_CNT",
+      "type": "esriFieldTypeInteger",
+      "alias": "Число ЗУ"
+    },
+    {
+      "name": "ACTUAL_DATE",
+      "type": "esriFieldTypeDate",
+      "alias": "Дата актуальности",
+      "length": 8
+    },
+    {
+      "name": "XC",
+      "type": "esriFieldTypeDouble",
+      "alias": "X центра"
+    },
+    {
+      "name": "YC",
+      "type": "esriFieldTypeDouble",
+      "alias": "Y центра"
+    },
+    {
+      "name": "XMIN",
+      "type": "esriFieldTypeDouble",
+      "alias": "Экстент - X мин."
+    },
+    {
+      "name": "XMAX",
+      "type": "esriFieldTypeDouble",
+      "alias": "Экстент - X макс."
+    },
+    {
+      "name": "YMIN",
+      "type": "esriFieldTypeDouble",
+      "alias": "Экстент - Y мин."
+    },
+    {
+      "name": "YMAX",
+      "type": "esriFieldTypeDouble",
+      "alias": "Экстент - Y макс."
+    },
+    {
+      "name": "DEL_FEATURE",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "Объект обработан - можно удалять"
+    },
+    {
+      "name": "OKS_CNT",
+      "type": "esriFieldTypeInteger",
+      "alias": "OKS_CNT"
+    },
+    {
+      "name": "SHAPE_Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Length"
+    },
+    {
+      "name": "SHAPE_Area",
+      "type": "esriFieldTypeDouble",
+      "alias": "Shape_Area"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 23645,
+        "REGION_KEY": "139",
+        "PKK_ID": "3901",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:01",
+        "NAME": "Багратионовский",
+        "ANNO_TEXT": "1",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 422,
+        "PARCELS_CNT": 16433,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2274007.9667699998,
+        "YC": 7263023.0827400004,
+        "XMIN": 2219760.3689999999,
+        "XMAX": 2317925.9975999999,
+        "YMIN": 7239638.659,
+        "YMAX": 7287961.2130000005,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 328362.54345474701,
+        "SHAPE_Area": 2992916798.5768442
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23646,
+        "REGION_KEY": "139",
+        "PKK_ID": "3902",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:02",
+        "NAME": "Гвардейский",
+        "ANNO_TEXT": "2",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 314,
+        "PARCELS_CNT": 18454,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2345958.3034399999,
+        "YC": 7295311.26143,
+        "XMIN": 2303501.1099999999,
+        "XMAX": 2391727.0392,
+        "YMIN": 7271655.1229999997,
+        "YMAX": 7324806.0762000103,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 370890.56152750202,
+        "SHAPE_Area": 2338974357.8329678
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23647,
+        "REGION_KEY": "139",
+        "PKK_ID": "3903",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:03",
+        "NAME": "Гурьевский",
+        "ANNO_TEXT": "3",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 609,
+        "PARCELS_CNT": 68446,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2298073.07449,
+        "YC": 7314264.9040099997,
+        "XMIN": 2250200.6288000001,
+        "XMAX": 2331065.4065999999,
+        "YMIN": 7278351.8426000001,
+        "YMAX": 7351864.4736000001,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 472788.94190533616,
+        "SHAPE_Area": 2669366656.3289943
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23648,
+        "REGION_KEY": "139",
+        "PKK_ID": "3904",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:04",
+        "NAME": "Гусевский",
+        "ANNO_TEXT": "4",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 388,
+        "PARCELS_CNT": 12386,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2469340.9642699999,
+        "YC": 7290023.8899999997,
+        "XMIN": 2448876.2998000002,
+        "XMAX": 2493151.8065999998,
+        "YMIN": 7260493.0318,
+        "YMAX": 7327338.3562000003,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 264256.78542154894,
+        "SHAPE_Area": 1911282645.0795929
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23649,
+        "REGION_KEY": "139",
+        "PKK_ID": "3905",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:05",
+        "NAME": "Зеленоградский",
+        "ANNO_TEXT": "5",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 422,
+        "PARCELS_CNT": 38921,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2258916.2939900002,
+        "YC": 7337512.8267700002,
+        "XMIN": 2218511.7829999998,
+        "XMAX": 2337563.8785999999,
+        "YMIN": 7301882.0083999997,
+        "YMAX": 7416554.3914000001,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 617274.13308413024,
+        "SHAPE_Area": 2475223121.48874
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23651,
+        "REGION_KEY": "139",
+        "PKK_ID": "3906",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:06",
+        "NAME": "Краснознаменский",
+        "ANNO_TEXT": "6",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 275,
+        "PARCELS_CNT": 8373,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2505147.8131400002,
+        "YC": 7338437.6883100001,
+        "XMIN": 2469712.7662,
+        "XMAX": 2547760.4559999998,
+        "YMIN": 7306206.9261999996,
+        "YMAX": 7375550.8212000001,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 364902.00408508145,
+        "SHAPE_Area": 3859086766.0584636
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23652,
+        "REGION_KEY": "139",
+        "PKK_ID": "3907",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:07",
+        "NAME": "Неманский",
+        "ANNO_TEXT": "7",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 254,
+        "PARCELS_CNT": 8273,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2450056.9562300001,
+        "YC": 7350702.6213999996,
+        "XMIN": 2415445.2409999999,
+        "XMAX": 2483465.9552000002,
+        "YMIN": 7322634.3046000004,
+        "YMAX": 7378767.585,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 268005.88024048519,
+        "SHAPE_Area": 2123008479.8838422
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23724,
+        "REGION_KEY": "139",
+        "PKK_ID": "3908",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:08",
+        "NAME": "Нестеровский",
+        "ANNO_TEXT": "8",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 331,
+        "PARCELS_CNT": 10869,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2507729.1738999998,
+        "YC": 7271567.0308699999,
+        "XMIN": 2477838.2097999998,
+        "XMAX": 2537186.7313999999,
+        "YMIN": 7234911.4431999996,
+        "YMAX": 7312266.4623999996,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 336996.5114346504,
+        "SHAPE_Area": 3130160899.0908475
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23725,
+        "REGION_KEY": "139",
+        "PKK_ID": "3909",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:09",
+        "NAME": "Озерский",
+        "ANNO_TEXT": "9",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 217,
+        "PARCELS_CNT": 12452,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2443944.85145,
+        "YC": 7251091.8277899995,
+        "XMIN": 2404610.7859999998,
+        "XMAX": 2486637.6357999998,
+        "YMIN": 7232237.0404000003,
+        "YMAX": 7279516.7309999997,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 301485.66943081463,
+        "SHAPE_Area": 2584166589.6726637
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23726,
+        "REGION_KEY": "139",
+        "PKK_ID": "3910",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:10",
+        "NAME": "Полесский",
+        "ANNO_TEXT": "10",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 399,
+        "PARCELS_CNT": 13257,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2366032.7080700002,
+        "YC": 7330006.00636,
+        "XMIN": 2323611.9616,
+        "XMAX": 2408431.5257999999,
+        "YMIN": 7301144.7495999997,
+        "YMAX": 7367258.5338000003,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 352039.18935778138,
+        "SHAPE_Area": 2516592054.2753615
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23727,
+        "REGION_KEY": "139",
+        "PKK_ID": "3911",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:11",
+        "NAME": "Правдинский",
+        "ANNO_TEXT": "11",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 362,
+        "PARCELS_CNT": 16923,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2358287.51828,
+        "YC": 7255252.8458399996,
+        "XMIN": 2308930.1264,
+        "XMAX": 2409176.1216000002,
+        "YMIN": 7230646.8798000002,
+        "YMAX": 7282270.1272,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 323776.48412464693,
+        "SHAPE_Area": 3794110801.8292913
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23728,
+        "REGION_KEY": "139",
+        "PKK_ID": "3912",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:12",
+        "NAME": "Славский",
+        "ANNO_TEXT": "12",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 309,
+        "PARCELS_CNT": 7902,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2395493.6674600001,
+        "YC": 7368275.3159699999,
+        "XMIN": 2357520.0765999998,
+        "XMAX": 2431192.4174000002,
+        "YMIN": 7310124.7766000004,
+        "YMAX": 7419206.7438000003,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 436865.18860479718,
+        "SHAPE_Area": 4096521833.9492955
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23729,
+        "REGION_KEY": "139",
+        "PKK_ID": "3913",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:13",
+        "NAME": "Черняховский",
+        "ANNO_TEXT": "13",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 341,
+        "PARCELS_CNT": 23179,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2419790.15845,
+        "YC": 7296978.3068399997,
+        "XMIN": 2374127.7976000002,
+        "XMAX": 2465864.6458000001,
+        "YMIN": 7260747.1414000001,
+        "YMAX": 7335821.0303999996,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 386731.86692905816,
+        "SHAPE_Area": 3847444738.6771235
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23730,
+        "REGION_KEY": "139",
+        "PKK_ID": "3914",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:14",
+        "NAME": "Балтийский городской округ",
+        "ANNO_TEXT": "14",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 344,
+        "PARCELS_CNT": 8398,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2222047.4727599998,
+        "YC": 7300383.6743099997,
+        "XMIN": 2186194.7196,
+        "XMAX": 2239033.0980000002,
+        "YMIN": 7256465.2633999996,
+        "YMAX": 7324988.0445999997,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 218559.12382546568,
+        "SHAPE_Area": 520642994.19554311
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23731,
+        "REGION_KEY": "139",
+        "PKK_ID": "3915",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:15",
+        "NAME": "г.Калининград",
+        "ANNO_TEXT": "15",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 1131,
+        "PARCELS_CNT": 62158,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2276609.15754,
+        "YC": 7305495.7944299998,
+        "XMIN": 2259037.2848,
+        "XMAX": 2299166.6645999998,
+        "YMIN": 7290494.5181999998,
+        "YMAX": 7319013.4447999997,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 170974.47193315453,
+        "SHAPE_Area": 670371208.23473024
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23732,
+        "REGION_KEY": "139",
+        "PKK_ID": "3916",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:16",
+        "NAME": "г.Советск",
+        "ANNO_TEXT": "16",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 216,
+        "PARCELS_CNT": 6987,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2433575.09081,
+        "YC": 7376459.2947000004,
+        "XMIN": 2425531.4446,
+        "XMAX": 2443700.9334,
+        "YMIN": 7370326.2149999999,
+        "YMAX": 7384690.2347999997,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 54980.259586998523,
+        "SHAPE_Area": 135884769.65623248
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23733,
+        "REGION_KEY": "139",
+        "PKK_ID": "3917",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:17",
+        "NAME": "Светлогорский городской округ",
+        "ANNO_TEXT": "17",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 132,
+        "PARCELS_CNT": 5621,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2237183.2008000002,
+        "YC": 7349770.8373199999,
+        "XMIN": 2220067.0597999999,
+        "XMAX": 2251348.2398000001,
+        "YMIN": 7345588.1720000003,
+        "YMAX": 7354358.4563999996,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 92772.522784375149,
+        "SHAPE_Area": 97975675.798655197
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23734,
+        "REGION_KEY": "139",
+        "PKK_ID": "3918",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:18",
+        "NAME": "Светловский городской округ",
+        "ANNO_TEXT": "18",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 124,
+        "PARCELS_CNT": 8531,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2248647.4547199998,
+        "YC": 7305521.22162,
+        "XMIN": 2232974.2510000002,
+        "XMAX": 2263332.4500000002,
+        "YMIN": 7294540.6463000001,
+        "YMAX": 7317056.1914999997,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 152277.42000065773,
+        "SHAPE_Area": 242144477.94646329
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23735,
+        "REGION_KEY": "139",
+        "PKK_ID": "3919",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:19",
+        "NAME": "г.Пионерский",
+        "ANNO_TEXT": "19",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 84,
+        "PARCELS_CNT": 3288,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2251221.65796,
+        "YC": 7351472.4606999997,
+        "XMIN": 2246523.5841999999,
+        "XMAX": 2254822.8621999999,
+        "YMIN": 7347894.6642000005,
+        "YMAX": 7354177.7747999998,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 31817.234550156929,
+        "SHAPE_Area": 27621262.945020173
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23736,
+        "REGION_KEY": "139",
+        "PKK_ID": "3920",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:20",
+        "NAME": "г.Ладушкин",
+        "ANNO_TEXT": "20",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 48,
+        "PARCELS_CNT": 1544,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2246624.2935199998,
+        "YC": 7280573.6233999999,
+        "XMIN": 2238673.8048,
+        "XMAX": 2252735.6261999998,
+        "YMIN": 7275120.0996000003,
+        "YMAX": 7286617.2356000002,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 53538.356779231719,
+        "SHAPE_Area": 84012887.197874621
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23737,
+        "REGION_KEY": "139",
+        "PKK_ID": "3921",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:21",
+        "NAME": "г.Мамоново",
+        "ANNO_TEXT": "21",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 73,
+        "PARCELS_CNT": 2544,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2221700.5942500001,
+        "YC": 7257655.6906899996,
+        "XMIN": 2204609.4810000001,
+        "XMAX": 2236092.4243999999,
+        "YMIN": 7250426.6166000003,
+        "YMAX": 7267975.5064000003,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 85220.566398597468,
+        "SHAPE_Area": 312088722.54234827
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23738,
+        "REGION_KEY": "139",
+        "PKK_ID": "3922",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:22",
+        "NAME": "п.Янтарный",
+        "ANNO_TEXT": "22",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 23,
+        "PARCELS_CNT": 2854,
+        "ACTUAL_DATE": 1424476800000,
+        "XC": 2220868.3669199999,
+        "YC": 7336468.6070600003,
+        "XMIN": 2218001.6096000001,
+        "XMAX": 2224383.3522000001,
+        "YMIN": 7330063.2200999996,
+        "YMAX": 7342254.8448000001,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 43581.801322329899,
+        "SHAPE_Area": 44377430.260121629
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 23739,
+        "REGION_KEY": "139",
+        "PKK_ID": "3923",
+        "PARENT_ID": "39",
+        "CAD_NUM": "39:23",
+        "NAME": "Калининградский залив",
+        "ANNO_TEXT": "23",
+        "ERROR_CODE": 0,
+        "KVARTALS_CNT": 2,
+        "PARCELS_CNT": 14,
+        "ACTUAL_DATE": 1418256000000,
+        "XC": 2224546.37843,
+        "YC": 7280034.2158000004,
+        "XMIN": 2187270.4901999999,
+        "XMAX": 2260021.9199999999,
+        "YMIN": 7254375.0357999997,
+        "YMAX": 7302832.1978000002,
+        "DEL_FEATURE": null,
+        "OKS_CNT": 0,
+        "SHAPE_Length": 219855.30676881081,
+        "SHAPE_Area": 1185487631.3589594
+      }
+    }
+  ]
+}
